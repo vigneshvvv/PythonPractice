@@ -5,10 +5,10 @@ def mySqlConnect():
     connection = None
     try:
         connection = mysql.connector.connect(
-            host = "jdbc:mysql://localhost:3306",
+            host = "localhost",
             database = "javatrainingpro",
             user = "root",
-            password = "Vignesh333#"
+            password = ""
         )
 
         if connection.is_connected():
